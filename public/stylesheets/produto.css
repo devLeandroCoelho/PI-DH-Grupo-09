@@ -1,51 +1,98 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: "Nunito Sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
-  }
-  
-  html {
-    font-size: 16px;
-  }
-  
-  #topoSite {
-    display: flex;
-    height: auto;
-    width: 100%;
-    background-color: #fff;
-    /* align-content: center;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row; */
-    padding-left: 24px;
-  
-  }
-  
-  #logoSite {
-    position: absolute;
-    width: 226px;
-    height: 159px;
-    left: -17px;
-    top: -19px;
-  }
-  
-  #buscaSite {
-    position: absolute;
-    width: 545px;
-    height: 49px;
-    left: 187px;
-    top: 36px;
-  
-    background: rgba(185, 216, 230, 0.2);
-    mix-blend-mode: normal;
-    border: 1px solid #AB9E9E;
-    box-sizing: border-box;
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
-  }
-  
-  #imgAnunciar {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito Sans", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+  text-decoration: none;
+}
+
+html {
+  font-size: 16px;
+}
+.topoSite {
+  display: flex;
+  width: 100%;
+  background-color: #fff;
+  justify-content: space-between;
+
+
+}
+.botoesLateralEsq {
+  display: flex;
+  justify-content:space-around;
+  width: 50%;
+}
+.divLogo {
+  width: 30%;
+  justify-content: flex-start;
+}
+
+.divBuscar {
+  display: flex;
+  width:70%;
+  align-items: center;  
+}
+
+.buscaSite {
+  width: 90%;
+  padding: 15px;
+  font-size: 20px;
+  background: rgba(185, 216, 230, 0.2);
+  mix-blend-mode: normal;
+  border: 1px solid #AB9E9E;
+  box-sizing: border-box;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+}
+.botoesLateralDir {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.divAnunciar {
+  display: flex;
+  align-items: center; 
+  width: 50%;
+}
+.divLogin {
+  display: flex;
+  align-items: center; 
+  width: 50%;
+}
+.spnAnunciar {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+  color: #323B7E;
+  margin-left: 15px;
+}
+.spnEntrar {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 41px;
+  color: #323B7E;
+  margin-left: 15px;
+}
+.nav-divPrincipal {
+  display: flex;
+  justify-content: space-around;
+  align-items:flex-end; 
+  padding: 15px;
+  background-color: #323B7E;
+  height: 100px;
+}
+a {
+  color: #fff;
+  font-size: 18px;
+}
+.navItem {
+  display: flex;
+}
+
+/*
+    #imgAnunciar {
     position: absolute;
     width: 64px;
     height: 64px;
@@ -62,22 +109,7 @@
     top: 15px;
   }
   
-  #btnAnunciar {
-    position: absolute;
-    border: none;
-    text-decoration: none;
-    background-color: #fff;
-    width: 152px;
-    height: 46px;
-    left: 902px;
-    top: 30px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 30px;
-    line-height: 41px;
   
-    color: #323B7E;
-  }
   
   #btnEntrar {
     position: absolute;
@@ -93,4 +125,4 @@
     font-style: normal;
     font-weight: normal;
     color: #323B7E;
-  }
+  } */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,25 +11,38 @@
 
 <body>
   <header>
-    <section id="topoSite">
-      <img id="logoSite" src="../public/images/logoSite.png">
-      <input type="search" name="busca" id="buscaSite">
-      <img id="imgAnunciar" src="../public/images/anunciar.png">
-      <button id="btnAnunciar">Anunciar</button>
-      <img id="imgUser" src="../public/images/user.png">
-      <button id="btnEntrar">Entrar</button>
+    <section class="topoSite">
+      <div class="botoesLateralEsq">
+        <div class="divLogo">
+          <img id="logoSite" src="../public/images/logoSite.png">
+        </div>
+        <div class="divBuscar">
+          <input type="search" name="busca" class="buscaSite" placeholder="o que você procura?">
+        </div>
+      </div>
+      <div class="botoesLateralDir">
+        <div class="divAnunciar">
+          <img id="imgAnunciar" src="../public/images/anunciar.png">
+          <span class="spnAnunciar">Anunciar</span>
+        </div>
+        <div class="divLogin">
+          <img id="imgUser" src="../public/images/user.png">
+          <span class="spnEntrar">Entrar</span>
+        </div>
+      </div>
     </section>
-    <!-- <nav id="nav-principal">
-      <ul>
-        <li><a href="#">Cadeiras</a></li>
-        <li><a href="#">Mesas</a></li>
-        <li><a href="#">Armarios</a></li>
-        <li><a href="#">Sofás</a></li>
-        <li><a href="#">Camas</a></li>
-        <li><a href="#">Acessórios</a></li>
-      </ul>
-    </nav> -->
+    <nav class="nav-principal">
+      <div class="nav-divPrincipal">
+        <div class="navItem"><a href="#">Cadeiras</a></div>
+        <div class="navItem"><a href="#">Mesas</a></div>
+        <div class="navItem"><a href="#">Armarios</a></div>
+        <div class="navItem"><a href="#">Sofás</a></div>
+        <div class="navItem"><a href="#">Camas</a></div>
+        <div class="navItem"><a href="#">Acessórios</a></div>
+      </div>
+    </nav>
   </header>
 
 </body>
+
 </html>
