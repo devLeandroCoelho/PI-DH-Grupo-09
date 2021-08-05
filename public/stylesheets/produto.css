@@ -102,7 +102,8 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .navImg {
@@ -150,16 +151,15 @@ a {
   display: flex;
   flex-direction: column;
 }
-.estrelaProd{
-  
+.estrelaProd img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .precoProd {
   font-size: 40px;
   padding: 15px 0px;
-  /* font-weight: bold; */
   color: #323B7E;
-
 }
 
 .botoesProd {
@@ -186,41 +186,3 @@ a {
   width: 50%;
   margin-top: 30px;
 }
-
-
-
-/*
-    #imgAnunciar {
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    left: 838px;
-    top: 15px;
-  
-  }
-  
-  #imgUser {
-    position: absolute;
-    width: 64px;
-    height: 64px;
-    left: 1177px;
-    top: 15px;
-  }
-  
-  
-  
-  #btnEntrar {
-    position: absolute;
-    border: none;
-    text-decoration: none;
-    background-color: #fff;
-    width: 152px;
-    height: 46px;
-    left: 1256px;
-    top: 30px;
-    font-size: 30px;
-    line-height: 41px;
-    font-style: normal;
-    font-weight: normal;
-    color: #323B7E;
-  } */
