@@ -1,11 +1,124 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link rel='stylesheet' href='/stylesheets/index.css'/>
+</head>
+
+<body>
+  <header>
+    <section class="topoSite">
+      <div class="botoesLateralEsq">
+        <div class="divLogo">
+          <img id="logoSite" src="../public/images/logoSite.png">
+        </div>
+        <div class="divBuscar">
+          <input type="search" name="busca" class="buscaSite" placeholder="o que você procura?">
+        </div>
+      </div>
+      <div class="botoesLateralDir">
+        <div class="divAnunciar">
+          <img id="imgAnunciar" src="../public/images/anunciar.png">
+          <span class="spnAnunciar">Anunciar</span>
+        </div>
+        <div class="divLogin">
+          <img id="imgUser" src="../public/images/user.png">
+          <span class="spnEntrar">Entrar</span>
+        </div>
+      </div>
+   </section>
+    <nav class="nav-principal">
+      <div class="nav-divPrincipal">
+        <div class="navItem">
+          <img class='navImg' src="/public/images/cadeira.png" alt="Menu Cadeiras">
+          <a href="#">Cadeiras</a>
+        </div>
+        <div class="navItem">
+          <img class='navImg' src="/public/images/escrivaninha.png" alt="Menu Mesas">
+          <a href="#">Mesas</a>
+        </div>
+        <div class="navItem">
+          <img class='navImg' src="/public/images/armario.png" alt="Menu Armarios">
+          <a href="#">Armarios</a></div>
+        <div class="navItem">
+          <img class='navImg' src="/public/images/sofa.png" alt="Menu Sofás">
+          <a href="#">Sofás</a></div>
+        <div class="navItem">
+          <img class='navImg' src="/public/images/cama.png" alt="Menu Camas">
+          <a href="#">Camas</a></div>
+        <div class="navItem">
+          <img class='navImg' src="/public/images/abajur.png" alt="Menu Acessórios">
+          <a href="#">Acessórios</a></div>
+      </div>
+    </nav>
+  </header>
+  <h3 class="produtos-titulo">Últimos Produtos</h3>
+  <%- include('carrossel') %>
+
+
+<main>
+
+    <h3 class="produtos-titulo">Produtos mais vendidos</h3>
+
+    <div class="card-produto">
+        <div class="card">
+         <img src="/public/images/img-cama.png" alt="" class="img-cama">
+         <span class="span-card">Cama King Size</span>
+         <img src="/public/images/avaliacaoProd.png" alt="" class="img-estrela">
+        </div>
+        <div class="card">
+         <img src="/public/images/img-armario.png" alt="" class="img-armario">
+         <span class="span-card">Armario e Sapateira</span>
+         <img src="/public/images/avaliacaoProd.png" alt="" class="img-estrela">
+        </div>
+        <div class="card">
+         <img src="/public/images/img-mesa.png" alt=""class="img-mesa">
+         <span class="span-card">Kit Cadeira e Mesa</span>
+         <img src="/public/images/avaliacaoProd.png" alt="" class="img-estrela">
+        </div>
+        <div class="card">
+         <img src="/public/images/img-sofa-abajur.jpeg" alt=""class="img-mesa">
+         <span class="span-card">Kit Sofá e Abajur</span>
+         <img src="/public/images/avaliacaoProd.png" alt="" class="img-estrela">
+        </div>
+      </div>
+
+      <div class="card-produto">
+        <div class="card">
+         <img src="/public/images/img-mesa-cadeiras.png" alt="" class="img-cama">
+         <span class="span-card">Mesa de Jantar</span>
+         <img src="/public/images/avaliacaoProd.png" alt="" class="img-estrela">
+        </div>
+        <div class="card">
+         <img src="/public/images/img-sofa.png" alt="" class="img-armario">
+         <span class="span-card">Sofá de Couro</span>
+         <img src="/public/images/avaliacaoProd.png" alt="" class="img-estrela">
+        </div>
+        <div class="card">
+         <img src="/public/images/img-mesanote.png" alt=""class="img-mesa">
+         <span class="span-card">Escrivaninha</span>
+         <img src="/public/images/avaliacaoProd.png" alt="" class="img-estrela">
+        </div>
+        <div class="card">
+         <img src="/public/images/divã.jpeg" alt=""class="img-mesa">
+         <span class="span-card-diva"> Divã </span>
+         <img src="/public/images/avaliacaoProd.png" alt="" class="img-estrela">
+        </div>
+      </div>
+
+
+
+</main>
+ <footer>
+    <span class="copyright">
+     ©️ Desapeguei LTDA- Rual do Azul, 1000, Aulzin - 00000-000 - Rio de Janeiro, RJ
+    </span>
+  </footer>
+
+</body>
+
 </html>

@@ -9,20 +9,24 @@
 html {
   font-size: 16px;
 }
-
 body {
   margin: auto;
   background-color:aliceblue;
   justify-content: center;
 }
+.corpoSite{
+  width: 80%;
+  margin: auto;
+  background-color: #fff;
+}
+
 .topoSite {
   display: flex;
   width: 100%;
   background-color: #fff;
   justify-content: space-between;
-
-
 }
+
 
 .botoesLateralEsq {
   display: flex;
@@ -117,7 +121,6 @@ a {
 
 .Prod {
   display: flex;
-  
 }
 
 .exibeProd {
@@ -126,11 +129,7 @@ a {
   flex-direction: column;
   margin-left: 30px;
 }
-.corpoSite{
-  width: 80%;
-  margin: auto;
-  background-color: #fff;
-}
+
 .tituloProd {
   font-size: 57px;
   padding: 15px 0px;
@@ -229,7 +228,7 @@ justify-content: space-between;
 margin: 20px 20px;
 }
 
-.card-cama{
+.card{
   width: 431px;
   height: 462px;
   background-color:#323B7E; 
@@ -267,6 +266,9 @@ margin: 20px 20px;
   margin-left: 100px;
 }
 
+.span-card-diva{
+  margin-left: 170px;
+}
 footer{
   background-color: #323B7E;
 display: flex;
@@ -275,4 +277,20 @@ align-items: center;
 color: white;
 font-size:15px;
 height: 50px;
+}
+
+
+.carousel-item img {
+  width: 50vw;
+  height: 50vh;
+}
+
+.slide {
+  width:50vw;
+  margin: auto;
+}
+
+.carousel-slide{
+width: 500px;
+height: 400px;
 }
