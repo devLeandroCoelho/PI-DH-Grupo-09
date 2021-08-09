@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to Cadastro de Produto</p>
-  </body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desapeguei</title>
+    <link rel="stylesheet" href='/stylesheets/cadastroproduto.css'>
+</head>
+<body>
+    <header id="header-azul"></header>
+    <section id="container-cadastrop">
+        <h1>O que você quer vender?</h1>
+        <article id="container-produtocadastro">
+                <form action="" id="form-produtocadastro">
+                    <label for="titulo">Titulo do Produto</label>
+                    <input type="text" name="titulo" placeholder="Título do Produto"id="titulo">
+                    <label for="descricao">Descrição</label>
+                    <textarea id="descricao" placeholder="Descrição do Produto" rows="5" cols="33"></textarea>
+                    <label for="categorias">categorias</label>
+                    <select name="categorias" id="categorias">
+                        <option value="escolha" disabled selected>Escolha uma categoria</option> 
+                        <option value="cadeiras">Cadeiras</option>
+                        <option value="mesas">Mesas</option>
+                        <option value="armarios">Armários</option>
+                        <option value="armarios">Sofás</option>
+                        <option value="armarios">Camas</option>
+                        <option value="armarios">Acessórios</option>
+                      </select>
+                    <label for="imagem">Imagem do produto</label>
+                    <input type="file" name="imagem" id="imagem" placeholder="Imagem do Produto">
+                    <label for="local">Localização</label>
+                    <input type="text" name="local" id="local" placeholder="Localização">
+                    <label for="contato">Contato</label>
+                    <input type="tel" name="contato" id="contato" placeholder="Seu contato">
+                    <input type="submit" value="Vender">
+                </form>
+                
+        </article>
+    </section>
+    <footer>
+        ©Desapeguei LTDA - Rua do Azul, 1000, Azulzin - 00000-000 - Rio de Janeiro, RJ
+    </footer>
+
+</body>
 </html>

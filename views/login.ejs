@@ -1,11 +1,33 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desapeguei</title>
+    <link rel="stylesheet" href='/stylesheets/login.css'>
+</head>
+<body>
+    <header id="header-azul"></header>
+    <section id="container-loginp">
+        <h1>Entre em sua conta</h1>
+        <article id="container-login">
+            <img src="../public/images/logo.png" alt="logo">
+            <form action="" id="formlogin">
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+                <label for="email">Senha</label>
+                <input type="password" name="password" id="password" >
+            </form>
+            <input type="submit" value="Entrar">
+            <hr>
+            <p>Não possuo uma conta</p>
+            <button>Cadastrar</button>
+        </article>
+    </section>
+    <footer>
+        ©Desapeguei LTDA - Rua do Azul, 1000, Azulzin - 00000-000 - Rio de Janeiro, RJ
+    </footer>
+
+</body>
 </html>
