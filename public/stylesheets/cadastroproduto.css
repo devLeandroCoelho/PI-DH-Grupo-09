@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border:0;
+    font-size:20px;
+    color: #323B7E;
+    
+}
+body, html{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+
+#header-azul{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: #323B7E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+#container-cadastrop h1{
+    padding: 20px;
+    font-size: 30px;
+    color:#323B7E;
+    }
+
+#container-cadastrop{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    }
+    
+#container-produtocadastro{
+    background: #F1F7FA;
+    border-radius:5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#323B7E;
+    height:90vh;
+    width: 50vw;
+    margin-bottom: 20px;  
+    }
+
+#form-produtocadastro{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items:center;
+    
+    }
+
+label{
+    display:none;
+}   
+input, select, textarea{
+    background-color:#FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width:50%;
+    margin-bottom: 20px;
+    
+}
+
+textarea::placeholder{
+    text-align:center;
+    color:#323B7E;
+}
+input::placeholder{
+    text-align:center;
+    color:#323B7E;
+}
+input[type="submit"]{
+    background-color: #50EDF6;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width:30%;
+    margin-bottom: 20px;
+    color:#323B7E;
+    font-weight: bold;
+    font-size:15px;
+    cursor: pointer;
+    align-self: center;
+}
+
+
+footer{
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 10px;
+    background: #323B7E;
+    padding: 20px;
+    }
+ 
+@media (max-width: 480px){    
+    #container-produtocadastro{
+        width: 80vw; 
+        }
+
+    input, select, textarea{
+        width:80%;
+    }
+
+    input[type="submit"]{
+        width:50%;
+        }
+}
