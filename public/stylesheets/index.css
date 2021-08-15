@@ -1,24 +1,27 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
-  border:0;
-  font-size:20px;
+  border: 0;
+  font-size: 20px;
   color: #323B7E;
-  
+  text-decoration: none;
+
 }
-body, html{
+
+body,
+html {
   width: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
 }
 
-h2{
-  font-size:30px;
+h2 {
+  font-size: 30px;
 }
 
 /* header principal */
-header{
+header {
   display: flex;
   position: relative;
   padding: 15px;
@@ -29,57 +32,63 @@ header{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-#logo{
+
+
+#logo {
   position: absolute;
-  height:130px;
+  height: 130px;
   top: -35px;
   left: -20px;
 }
 
-#anunciar{
+#anunciar {
   display: flex;
   align-items: center;
   margin-left: 10%;
 }
 
-#entrar{
+#entrar {
   display: flex;
   align-items: center;
   margin-left: 10%;
 }
 
-#anunciar img, #entrar img{
+#anunciar img,
+#entrar img {
   height: 35px;
   margin-right: 5px;
-  
+
 }
 
 /* barra pesquisa */
-#busca{
+#busca {
   background: #b9d8e6ab;
   border-radius: 20px;
-  height: 30px;
-  padding:10px;
+  height: 35px;
+  padding: 10px;
   width: 50%;
-  margin-left: 7%; 
+  margin-left: 7%;
 }
-#busca:focus{
-  outline: 0;
+
+#busca:focus {
+  outline: 0px;
 }
-#lupa{
-   position:relative;
-   top: -3px;
-   left: -30px;
-  cursor:pointer;
+
+#lupa {
+  position: relative;
+  top: -3px;
+  left: -30px;
+  cursor: pointer;
 }
-#lupa:after{
-  font-family:FontAwesome;
-  font-size:14px;
-  content:"\f002"
+
+#lupa:after {
+  font-family: FontAwesome;
+  font-size: 14px;
+  content: "\f002"
 }
 
 /* header secundario */
-#categorias{
+#categorias {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -94,23 +103,24 @@ header{
 
 }
 
-#categorias a{
-   display: flex;
-   flex-direction: column; 
+#categorias a {
+  display: flex;
+  flex-direction: column;
 }
-#categorias img{
-   height: 30px;
-   width:36px;
-   align-self: center;
+
+#categorias img {
+  height: 30px;
+  width: 36px;
+  align-self: center;
 }
 
 #categorias p {
-   color: white;
-   margin: 0;
+  color: white;
+  margin: 0;
 }
 
 /*Últimos produtos */
-#produtocarrossel{
+#produtocarrossel {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -118,6 +128,7 @@ header{
   align-items: center;
   justify-content: center;
 }
+
 /*Carrossel */
 .carousel-item img {
   width: 45vw;
@@ -125,18 +136,18 @@ header{
 }
 
 .slide {
-  width:45vw;
+  width: 45vw;
   margin: auto;
 }
 
-.carousel-slide{
-width: 400px;
-height: 400px;
+.carousel-slide {
+  width: 400px;
+  height: 400px;
 }
 
 /*produtos mais vendidos */
 
-#produtosmvendidos{
+#produtosmvendidos {
   margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -145,12 +156,12 @@ height: 400px;
   justify-content: center;
 }
 
-#produtosgrid{
+#produtosgrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-#produtogrid{
+#produtogrid {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -160,65 +171,69 @@ height: 400px;
   margin-right: 15px;
 }
 
-#produtogrid span{
+#produtogrid span {
   color: #FFFFFF;
 }
 
-#classprodutogrid{
- width:100px;
+#classprodutogrid {
+  width: 100px;
 }
-#imgprodutogrid{
+
+#imgprodutogrid {
   height: 200px;
   width: 250px;
 }
 
 
-footer{
+footer {
   text-align: center;
-  color:#FFFFFF;
+  color: #FFFFFF;
   font-size: 12px;
   background: #323B7E;
   padding: 20px;
 }
 
 
-@media (max-width: 480px){
-  #busca, #lupa{
-      display:none;
-  }
-  header{
-      justify-content: space-around;
+@media (max-width: 480px) {
+
+  #busca,
+  #lupa {
+    display: none;
   }
 
-  #anunciar{
-      margin-left:30%;
+  header {
+    justify-content: space-around;
   }
-  
-  #entrar{
-      margin-left: 10%;
-      margin-right: 5%;
+
+  #anunciar {
+    margin-left: 30%;
+  }
+
+  #entrar {
+    margin-left: 10%;
+    margin-right: 5%;
   }
 
   .carousel-item img {
     width: 90vw;
     height: 50vh;
   }
-  
+
   .slide {
-    width:90vw;
+    width: 90vw;
     margin: auto;
   }
-  
-  .carousel-slide{
-  width: 500px;
-  height: 400px;
+
+  .carousel-slide {
+    width: 500px;
+    height: 400px;
   }
 
-  #produtosgrid{
+  #produtosgrid {
     display: block;
   }
 
-  footer{
+  footer {
     font-size: 15px;
   }
 }
