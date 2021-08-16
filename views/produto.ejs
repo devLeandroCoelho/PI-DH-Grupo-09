@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'
+    type='text/css'>
+  <link rel='stylesheet' href='/stylesheets/produto.css' />
+  <title><%= title %></title>
+</head>
+
+<body>
+  <header>
+    <a href="/">
+      <img src="./images/logo.png" id="logo">
+    </a>
+    <input type="search" name="busca" id="busca" autocomplete="off">
+    <div id="lupa"></div>
+    <div id="anunciar">
+      <a href="/cadastrarproduto">
+        <img src="./images/anunciar.png">
+        <span>Anunciar</span>
+      </a>
+    </div>
+    <div id="entrar">
+      <a href="/cadastrarproduto">
+        <img src="./images/user.png">
+        <span>Entrar</span>
+      </a>
+    </div>
+  </header>
+  <section>
+    <article id="categorias">
+      <a href="/buscar/cadeiras">
+        <img src="./images/cadeira.png">
+        <p>Cadeiras</p>
+      </a>
+      <a href="/buscar/mesas">
+        <img src="./images/escrivaninha.png">
+        <p>Mesas</p>
+      </a>
+      <a href="/buscar/armarios">
+        <img src="./images/armario.png">
+        <p>Armarios</p>
+      </a>
+      <a href="/buscar/sofas">
+        <img src="./images/sofa.png">
+        <p>Sofás</p>
+      </a>
+      <a href="/buscar/camas">
+        <img src="./images/cama.png">
+        <p>Camas</p>
+      </a>
+      <a href="/buscar/acessorios">
+        <img src="./images/abajur.png">
+        <p>Acessórios</p>
+      </a>
+    </article>
+    <article id="produto">
+      <h2>Cadeira com apoio para os pés</h2>
+      <div class="lay2col">
+        <div class="imgProd">
+          <img src="/public/images/imagemProduto.png" alt="Imagem do Produto">
+        </div>
+        <div class="descrProd">
+          <div class="estrelaProd">
+            <img src="/public/images/avaliacaoProd.png" alt="Classificação do produto">
+          </div>
+          <div class="precoProd diminuitxt">
+            R$ 320,00 ou </br> 10x R$ 32,00
+          </div>
+          <button class="btnComprar diminuibtn">Comprar</button>
+          <button class="btnAddCart diminuibtn">Adicionar ao Carrinho</button>
+        </div>
+
+      </div>
+    </article>
+    <article id="produtossemelhantes">
+      <h2>Produtos Semelhantes</h2>
+      <div id="produtosgrid">
+        <article id="produtogrid">
+          <img src="/public/images/img-mesa-cadeiras.png" id="imgprodutogrid">
+          <a href="/produto/#"><span>Mesa de jantar</span></a>
+          <img src="/public/images/avaliacaoProd.png" id="classprodutogrid">
+        </article>
+        <article id="produtogrid">
+          <img src="/public/images/img-sofa.png" id="imgprodutogrid">
+          <a href="/produto/#"><span>Sofá de couro</span></a>
+          <img src="/public/images/avaliacaoProd.png" id="classprodutogrid">
+        </article>
+        <article id="produtogrid">
+          <img src="/public/images/img-mesanote.png" id="imgprodutogrid">
+          <a href="/produto/#"><span>Escrivaninha</span></a>
+          <img src="/public/images/avaliacaoProd.png" id="classprodutogrid">
+        </article>
+      </div>
+    </article>
+  </section>
+  <footer>
+    ©Desapeguei LTDA - Rua do Azul, 1000, Azulzin - 00000-000 - Rio de Janeiro, RJ
+  </footer>
+
+</body>
+
+</html>
