@@ -7,7 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel='stylesheet' href='//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'
     type='text/css'>
-  <link rel='stylesheet' href='/stylesheets/produto.css' />
+  <link rel='stylesheet' href='/stylesheets/buscar.css' />
+  <link rel="shortcut icon" href="/public/images/favicon.ico" />
   <title><%= title %></title>
 </head>
 
@@ -58,42 +59,44 @@
         <p>Acessórios</p>
       </a>
     </article>
-    <article id="produto">
-      <h2>Cadeira com apoio para os pés</h2>
-      <div class="lay2col">
-        <div class="imgProd">
-          <img src="/public/images/imagemProduto.png" alt="Imagem do Produto">
-        </div>
-        <div class="descrProd">
-          <div class="estrelaProd">
-            <img src="/public/images/avaliacaoProd.png" alt="Classificação do produto">
-          </div>
-          <div class="precoProd diminuitxt">
-            R$ 320,00 ou </br> 10x R$ 32,00
-          </div>
-          <button class="btnComprar diminuibtn">Comprar</button>
-          <button class="btnAddCart diminuibtn">Adicionar ao Carrinho</button>
-        </div>
-
-      </div>
-    </article>
-    <article id="produtossemelhantes">
-      <h2>Produtos Semelhantes</h2>
+    <article id="produtosmvendidos">
+      <h2>Resultado da Busca de <spam class="destaqueTxt"><%= id %></spam></h2>
       <div id="produtosgrid">
+        <article id="produtogrid">
+          <img src="/public/images/img-cama.png" id="imgprodutogrid">
+          <a href="/produto/#"><span>Cama king Size</span></a>
+          <img src="/public/images/avaliacaoProd.png" id="classprodutogrid">
+          <span class="precoProd">R$ 559,90</span>
+        </article>
+        <article id="produtogrid">
+          <img src="/public/images/img-armario.png" id="imgprodutogrid">
+          <a href="/produto/#"><span>Armario e sapateira</span></a>
+          <img src="/public/images/avaliacaoProd.png" id="classprodutogrid">
+          <span class="precoProd">R$ 329,90</span>
+        </article>
+        <article id="produtogrid">
+          <img src="/public/images/img-mesa.png" id="imgprodutogrid">
+          <a href="/produto/#"><span>Kit cadeira e mesa</span></a>
+          <img src="/public/images/avaliacaoProd.png" id="classprodutogrid">
+          <span class="precoProd">R$ 229,90</span>
+        </article>
         <article id="produtogrid">
           <img src="/public/images/img-mesa-cadeiras.png" id="imgprodutogrid">
           <a href="/produto/#"><span>Mesa de jantar</span></a>
           <img src="/public/images/avaliacaoProd.png" id="classprodutogrid">
+          <span class="precoProd">R$ 489,70</span>
         </article>
         <article id="produtogrid">
           <img src="/public/images/img-sofa.png" id="imgprodutogrid">
           <a href="/produto/#"><span>Sofá de couro</span></a>
           <img src="/public/images/avaliacaoProd.png" id="classprodutogrid">
+          <span class="precoProd">R$ 189,50</span>
         </article>
         <article id="produtogrid">
           <img src="/public/images/img-mesanote.png" id="imgprodutogrid">
           <a href="/produto/#"><span>Escrivaninha</span></a>
           <img src="/public/images/avaliacaoProd.png" id="classprodutogrid">
+          <span class="precoProd">R$ 129,20</span>
         </article>
       </div>
     </article>

@@ -16,5 +16,10 @@ module.exports = {
 	},
     perfil: (req, res) => {
 		res.render('perfil', { title: 'Desapega - Perfil' });
+	},
+	buscar: (req, res) => {
+		res.render('buscar', { title: 'Desapega - Buscar' , id: req.params.id});
 	}
+
+
 }
