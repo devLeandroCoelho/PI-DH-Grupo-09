@@ -32,7 +32,10 @@ header {
   background: #FFFFFF;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
+.destaqueTxt{
+  font-size: 30px;
+  color: red;
+}
 
 
 #logo {
@@ -120,31 +123,6 @@ header {
   margin: 0;
 }
 
-/*Últimos produtos */
-#produtocarrossel {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-/*Carrossel */
-.carousel-item img {
-  width: 45vw;
-  height: 50vh;
-}
-
-.slide {
-  width: 45vw;
-  margin: auto;
-}
-
-.carousel-slide {
-  width: 400px;
-  height: 400px;
-}
 
 /*produtos mais vendidos */
 
@@ -175,6 +153,7 @@ header {
 
 #produtogrid span {
   color: #FFFFFF;
+  padding-top: 10px;
 }
 
 #classprodutogrid {
