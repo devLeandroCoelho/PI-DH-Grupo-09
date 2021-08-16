@@ -5,7 +5,7 @@
   border: 0;
   font-size: 20px;
   color: #323B7E;
-  text-decoration: none;
+  text-decoration: none !important;
 
 }
 
