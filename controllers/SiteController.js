@@ -1,3 +1,8 @@
+const produtos = require('../databases/produtos.json');
+const fs = require("fs");
+const path = require('path');
+
+
 module.exports = {
 	index: (req, res) => {
 		res.render('index', { title: 'Desapega - Home' });

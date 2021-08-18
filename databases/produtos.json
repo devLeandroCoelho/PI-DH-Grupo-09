@@ -1,0 +1,18 @@
+[
+
+    {
+        "titulo": "Adler Carvalho",
+        "descricao": "Cama King",
+        "categorias": "camas",
+        "imagem": "../public/images/img-cama.png",
+        "localizacao": "Florianópolis",
+        "contato": "48 98854-7455"
+    },
+    {
+        "nome": "Adler Carvalho",
+        "email": "dhadler@dh.com",
+        "senha": "adler",
+        "img": "/img/usuarios/p1.jpg"
+    }
+
+]
