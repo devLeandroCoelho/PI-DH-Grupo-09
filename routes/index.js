@@ -10,6 +10,7 @@ router.get('/cadastroproduto', SiteController.cadastroproduto);
 router.get('/login', SiteController.login);
 router.get('/cadastro', SiteController.cadastro);
 router.get('/perfil', SiteController.perfil);
+router.get('/carrinho', SiteController.carrinho);
 router.get('/buscar', SiteController.buscar);
 router.get('/buscar/:id', SiteController.buscar);
 

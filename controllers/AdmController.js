@@ -7,5 +7,8 @@ module.exports = {
 	},
     perfil: (req, res) => {
 		res.render('perfil', { title: 'Desapega - Perfil' });
+	},
+	carrinho: (req, res) => {
+		res.render('carrinho', { title: 'Desapega - Carrinho' });
 	}
 }

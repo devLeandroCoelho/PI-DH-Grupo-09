@@ -17,9 +17,10 @@ module.exports = {
     perfil: (req, res) => {
 		res.render('perfil', { title: 'Desapega - Perfil' });
 	},
+		carrinho: (req, res) => {
+		res.render('carrinho', { title: 'Desapega - Carrinho' });
+	},
 	buscar: (req, res) => {
 		res.render('buscar', { title: 'Desapega - Buscar' , id: req.params.id});
 	}
-
-
 }
